@@ -17,6 +17,9 @@
 get_header(); ?>
 
 	<div id="primary" class="content-area">
+		<div id="main" class="upper-content">
+			<?php dynamic_sidebar( 'Upper Content 1' ); ?>
+		</div>
 		<main id="main" class="site-main" role="main">
 
 		<?php if ( have_posts() ) : ?>
