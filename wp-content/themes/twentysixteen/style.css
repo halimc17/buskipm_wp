@@ -296,8 +296,8 @@ textarea {
 	color: #1a1a1a;
 	/*font-family: Merriweather, Georgia, serif;*/
 	font-family: Arial, sans-serif;
-	font-size: 16px;
-	font-size: 1rem;
+	font-size: 14px;
+	/*font-size: 1rem;*/
 	line-height: 1.75;
 }
 
@@ -3120,6 +3120,20 @@ p > video {
 
 	.site-content {
 		padding: 0 4.5455%;
+	}
+
+	.low_content {
+		background-color:#000;
+		color:#FFF;
+		clear:both;
+		padding:30px;
+		font-family:Arial, sans-serif;
+		font-size:16px;
+	}
+
+	.low_content h2{
+		font-family:Merriweather, Georgia, serif;
+		font-size:30px;
 	}
 
 	.content-area {

@@ -10,10 +10,25 @@
  */
 ?>
 
-			<div class="low_content" style="background-color:#CCC;color:#000;clear:both;height:200px;">
+			<div class="adasdas" style="background-color:#FFF;color:#000;clear:both;margin-bottom:15px;">
+				<div class="lowcontent_a" style="background-color:#FFF;width:32%;float:left;"><?php dynamic_sidebar( 'Low Content A' ); ?></div>
+				<div class="lowcontent_b" style="background-color:#FFF;width:33%;float:left;margin-left:18px;"><?php dynamic_sidebar( 'Low Content B' ); ?></div>
+				<div class="lowcontent_c" style="background-color:#FFF;width:32%;float:right;margin-left:15px;"><?php dynamic_sidebar( 'Low Content C' ); ?></div>
+				<div style="clear:both;"></div>
+			</div>
+			
+			<div class="asdasd" style="background-color:#CCC;color:#000;clear:both;height:200px;">
 				<?php dynamic_sidebar( 'Low Content 1' ); ?>
 			</div>
-			<div class="low_content" style="background-color:#000;color:#FFF;clear:both;height:200px;">Low Content 2</div>
+
+			<div id="primary" class="low_content">
+				<div class="lowcontent2" style="background-color:#000;width:32%;float:left;color:#FFF;"><?php dynamic_sidebar( 'Lowcontent2' ); ?></div>
+				<div class="lowcontent3" style="background-color:#000;width:34%;float:left;color:#FFF;margin-left:10px;"><?php dynamic_sidebar( 'Lowcontent3' ); ?></div>
+				<div class="lowcontent4" style="background-color:#000;width:32%;float:left;color:#FFF;margin-left:10px;"><?php dynamic_sidebar( 'Lowcontent4' ); ?></div>
+				<div style="clear:both;"></div>
+			</div>
+
+
 		</div><!-- .site-content -->
 
 		

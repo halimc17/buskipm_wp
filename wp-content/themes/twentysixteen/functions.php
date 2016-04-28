@@ -212,6 +212,66 @@ function twentysixteen_widgets_init() {
 		'after_title'   => '</h2>',
 	) );
 
+	register_sidebar( array(
+		'name'          => __( 'Lowcontent2', 'twentysixteen' ),
+		'id'            => 'sidebar-7',
+		'description'   => __( 'Low Content 2.', 'twentysixteen' ),
+		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+
+	register_sidebar( array(
+		'name'          => __( 'Lowcontent3', 'twentysixteen' ),
+		'id'            => 'sidebar-8',
+		'description'   => __( 'Low Content 3.', 'twentysixteen' ),
+		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+
+	register_sidebar( array(
+		'name'          => __( 'Lowcontent4', 'twentysixteen' ),
+		'id'            => 'sidebar-9',
+		'description'   => __( 'Low Content 4.', 'twentysixteen' ),
+		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+
+	register_sidebar( array(
+		'name'          => __( 'Low Content A', 'twentysixteen' ),
+		'id'            => 'sidebar-10',
+		'description'   => __( 'Low Content A.', 'twentysixteen' ),
+		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+
+	register_sidebar( array(
+		'name'          => __( 'Low Content B', 'twentysixteen' ),
+		'id'            => 'sidebar-11',
+		'description'   => __( 'Low Content B.', 'twentysixteen' ),
+		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+
+	register_sidebar( array(
+		'name'          => __( 'Low Content C', 'twentysixteen' ),
+		'id'            => 'sidebar-12',
+		'description'   => __( 'Low Content C.', 'twentysixteen' ),
+		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+
 
 }
 add_action( 'widgets_init', 'twentysixteen_widgets_init' );
@@ -451,3 +511,5 @@ function twentysixteen_widget_tag_cloud_args( $args ) {
 	return $args;
 }
 add_filter( 'widget_tag_cloud_args', 'twentysixteen_widget_tag_cloud_args' );
+
+show_admin_bar( FALSE);
