@@ -17,7 +17,7 @@
 				<div style="clear:both;"></div>
 			</div>
 			
-			<div class="asdasd" style="background-color:#CCC;color:#000;clear:both;height:200px;">
+			<div class="low_content2" style="background-color:#FFF;color:#000;clear:both;align:center;">
 				<?php dynamic_sidebar( 'Low Content 1' ); ?>
 			</div>
 

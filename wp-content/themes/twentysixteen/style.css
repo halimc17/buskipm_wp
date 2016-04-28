@@ -3142,6 +3142,10 @@ p > video {
 		width: 60%;
 	}
 
+	.low_content2 .widget{
+		margin-bottom:30px;
+	}
+
 	.entry-header,
 	.post-thumbnail,
 	.entry-content,
@@ -3441,7 +3445,7 @@ p > video {
 	.header-image {
 		margin-top: 0em;
 		margin-bottom: 0em;
-		background-color:#CCC;
+		background-color:#ff9900;
 	}
 
 	.custom-logo {
@@ -4007,6 +4011,10 @@ p > video {
 	.site-footer,
 	.widecolumn {
 		padding: 0;
+	}
+
+	.afiliasi img{
+		margin-left:20px;
 	}
 
 
